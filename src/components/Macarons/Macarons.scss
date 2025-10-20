@@ -1,0 +1,129 @@
+@import '../../assets/styles/variables';
+@import '../../assets/styles/mixins';
+@import '../../assets/styles/animations';
+
+.macarons-section {
+  padding: 80px 40px;
+  text-align: center;
+  background: linear-gradient(to right, #4a6c75, #6b899a, #4a6c75);
+  color: white;
+
+  .description-text-small {
+    max-width: 600px;
+    margin: 0 auto 50px;
+    font-size: 1rem;
+  }
+
+  .macarons-content {
+    @include flexCenter;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @include media-tablet {
+      flex-direction: column;
+    }
+
+    .treats-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      flex: 3;
+      margin-right: 30px;
+
+      @include media-tablet {
+        grid-template-columns: 1fr;
+        margin-right: 0;
+        margin-bottom: 30px;
+        width: 100%;
+        max-width: 600px;
+      }
+
+      .gallery-item {
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        transition: transform 0.4s ease-out;
+
+        &:hover {
+          transform: translateY(-5px) scale(1.02);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+    }
+
+    .holiday-offer-card {
+      flex: 1.5;
+      background-color: $bg-light;
+      border: 5px double $secondary-color;
+      background: linear-gradient(to bottom, #3d5a6d 0%, #1c2e36 90%);
+      border-radius: 15px;
+      padding: 30px;
+      position: relative;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-out;
+      overflow: hidden;
+      min-width: 300px;
+
+      .card-content {
+        position: relative;
+        z-index: 2;
+        padding: 20px;
+      }
+
+      .card-decoration {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.8;
+        z-index: 1;
+      }
+
+      .collection-title {
+        font-size: 2rem;
+        color: $accent-color;
+        margin-bottom: 5px;
+        font-family: $font-family-serif;
+        transform: rotate(-3deg);
+        display: inline-block;
+        border-bottom: 2px solid $accent-color;
+      }
+
+      .discount-text {
+        font-size: 3rem;
+        font-weight: 800;
+        color: $accent-color;
+        margin-bottom: 20px;
+        animation: pulse 1.5s infinite alternate;
+      }
+
+      .order-btn {
+        @include buttonStyle($accent-color, $bg-light);
+        width: 100%;
+        padding: 15px;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+// Հատուկ անիմացիա
+@keyframes pulse {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+}
