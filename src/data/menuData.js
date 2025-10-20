@@ -1,23 +1,21 @@
-// Մոդելային տվյալներ - Դուք պետք է փոխարինեք img ճանապարհները Ձեր իրական նկարներով
-// Ենթադրվում է, որ նկարները գտնվում են src/assets/images/ պանակում
-
 export const menuData = [
     {
         id: 1,
         category: 'pastries',
         category_hy: 'Թխվածքներ',
         category_ru: 'Выпечка',
-        category_nl: 'Gebak',       // Ավելացված
+        category_nl: 'Gebak',
         title_hy: 'Շոկոլադե Տորթ',
         title_en: 'Chocolate Cherry Cake',
-        title_ru: 'Шоколадно-Вишневый Торт', // Ավելացված
-        title_nl: 'Chocolade Kersentaart',  // Ավելացված
+        title_ru: 'Шоколадно-Вишневый Торт',
+        title_nl: 'Chocolade Kersentaart',
         price: 9500,
         description_hy: 'Հարուստ շոկոլադե բիսկվիթ, թարմ բալի կրեմով և գլազուրով։',
         description_en: 'Rich chocolate sponge with fresh cherry cream and glaze.',
-        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.', // Ավելացված
-        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',     // Ավելացված
-        img: './public/images/shoko.jpg'
+        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.',
+        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',
+        // Փոփոխություն: './public/images/shoko.jpg' -> '/images/shoko.jpg'
+        img: '/images/shoko.jpg'
     },
     {
         id: 2,
@@ -34,7 +32,8 @@ export const menuData = [
         description_en: 'Multi-layered puff pastry with delicate custard cream.',
         description_ru: 'Многослойное слоеное тесто и нежный заварной крем.',
         description_nl: 'Meerlagig bladerdeeg met delicate banketbakkersroom.',
-        img: './public/images/pastry_napoleon.jpg'
+        // Փոփոխություն: './public/images/pastry_napoleon.jpg' -> '/images/pastry_napoleon.jpg'
+        img: '/images/pastry_napoleon.jpg'
     },
     {
         id: 3,
@@ -51,7 +50,8 @@ export const menuData = [
         description_en: 'Fresh, tangy mango and passion fruit flavor combination.',
         description_ru: 'Свежее, кисло-сладкое сочетание вкусов манго и маракуйи.',
         description_nl: 'Frisse, pittige combinatie van mango- en passievruchtsmaken.',
-        img: './public/images/macaronner.png'
+        // Փոփոխություն: './public/images/macaronner.png' -> '/images/macaronner.png'
+        img: '/images/macaronner.png'
     },
     {
         id: 4,
@@ -68,58 +68,62 @@ export const menuData = [
         description_en: 'Traditional, butter-rich gata with a delicious milk-curd filling.',
         description_ru: 'Традиционная, богатая маслом гата с вкусной молочно-творожной начинкой.',
         description_nl: 'Traditionele, boterrijke gata met een heerlijke melk-kwarkvulling.',
-        img: './public/images/gata.jpg'
+        // Փոփոխություն: './public/images/gata.jpg' -> '/images/gata.jpg'
+        img: '/images/gata.jpg'
     },
     {
         id: 5,
         category: 'cakes',
         category_hy: 'Տորթեր',
-        category_ru: 'Торты',           // Ավելացված
-        category_nl: 'Taarten',         // Ավելացված
+        category_ru: 'Торты',
+        category_nl: 'Taarten',
         title_hy: 'Շոկոլադե Տորթ',
         title_en: 'Chocolate Cherry Cake',
-        title_ru: 'Шоколадно-Вишневый Торт', // Ավելացված
-        title_nl: 'Chocolade Kersentaart',  // Ավելացված
+        title_ru: 'Шоколадно-Вишневый Торт',
+        title_nl: 'Chocolade Kersentaart',
         price: 9500,
         description_hy: 'Հարուստ շոկոլադե բիսկվիթ, թարմ բալի կրեմով և գլազուրով։',
         description_en: 'Rich chocolate sponge with fresh cherry cream and glaze.',
-        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.', // Ավելացված
-        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',     // Ավելացված
-        img: './public/images/tort_bal.jpg'
+        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.',
+        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',
+        // Փոփոխություն: './public/images/tort_bal.jpg' -> '/images/tort_bal.jpg'
+        img: '/images/tort_bal.jpg'
     },
     {
         id: 6,
         category: 'cakes',
         category_hy: 'Տորթեր',
-        category_ru: 'Торты',           // Ավելացված
-        category_nl: 'Taarten',         // Ավելացված
+        category_ru: 'Торты',
+        category_nl: 'Taarten',
         title_hy: 'Շոկոլադե Տորթ',
         title_en: 'Chocolate Cherry Cake',
-        title_ru: 'Шоколадно-Вишневый Торт', // Ավելացված
-        title_nl: 'Chocolade Kersentaart',  // Ավելացված
+        title_ru: 'Шоколадно-Вишневый Торт',
+        title_nl: 'Chocolade Kersentaart',
         price: 9500,
         description_hy: 'Հարուստ շոկոլադե բիսկվիթ, թարմ բալի կրեմով և գլազուրով։',
         description_en: 'Rich chocolate sponge with fresh cherry cream and glaze.',
-        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.', // Ավելացված
-        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',     // Ավելացված
-        img: './public/images/tort_sev.jpg'
+        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.',
+        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',
+        // Փոփոխություն: './public/images/tort_sev.jpg' -> '/images/tort_sev.jpg'
+        img: '/images/tort_sev.jpg'
     },
     {
         id: 7,
         category: 'cakes',
         category_hy: 'Տորթեր',
-        category_ru: 'Торты',           // Ավելացված
-        category_nl: 'Taarten',         // Ավելացված
+        category_ru: 'Торты',
+        category_nl: 'Taarten',
         title_hy: 'Շոկոլադե Տորթ',
         title_en: 'Chocolate Cherry Cake',
-        title_ru: 'Шоколадно-Вишневый Торт', // Ավելացված
-        title_nl: 'Chocolade Kersentaart',  // Ավելացված
+        title_ru: 'Шоколадно-Вишневый Торт',
+        title_nl: 'Chocolade Kersentaart',
         price: 9500,
         description_hy: 'Հարուստ շոկոլադե բիսկվիթ, թարմ բալի կրեմով և գլազուրով։',
         description_en: 'Rich chocolate sponge with fresh cherry cream and glaze.',
-        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.', // Ավելացված
-        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',     // Ավելացված
-        img: './public/images/tort_bal.jpg'
+        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.',
+        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',
+        // Փոփոխություն: './public/images/tort_bal.jpg' -> '/images/tort_bal.jpg'
+        img: '/images/tort_bal.jpg'
     },
     {
         id: 8,
@@ -136,41 +140,44 @@ export const menuData = [
         description_en: 'Fresh, tangy mango and passion fruit flavor combination.',
         description_ru: 'Свежее, кисло-сладкое сочетание вкусов манго и маракуйи.',
         description_nl: 'Frisse, pittige combinatie van mango- en passievruchtsmaken.',
-        img: './public/images/cupcake-2.png'
+        // Փոփոխություն: './public/images/cupcake-2.png' -> '/images/cupcake-2.png'
+        img: '/images/cupcake-2.png'
     },
     {
         id: 9,
         category: 'pastries',
         category_hy: 'Թխվածքներ',
         category_ru: 'Выпечка',
-        category_nl: 'Gebak',       // Ավելացված
+        category_nl: 'Gebak',
         title_hy: 'Շոկոլադե Տորթ',
         title_en: 'Chocolate Cherry Cake',
-        title_ru: 'Шоколадно-Вишневый Торт', // Ավելացված
-        title_nl: 'Chocolade Kersentaart',  // Ավելացված
+        title_ru: 'Шоколадно-Вишневый Торт',
+        title_nl: 'Chocolade Kersentaart',
         price: 9500,
         description_hy: 'Հարուստ շոկոլադե բիսկվիթ, թարմ բալի կրեմով և գլազուրով։',
         description_en: 'Rich chocolate sponge with fresh cherry cream and glaze.',
-        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.', // Ավելացված
-        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',     // Ավելացված
-        img: './public/images/shoko.jpg'
+        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.',
+        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',
+        // Փոփոխություն: './public/images/shoko.jpg' -> '/images/shoko.jpg'
+        img: '/images/shoko.jpg'
     },
     {
         id: 10,
         category: 'cakes',
         category_hy: 'Տորթեր',
-        category_ru: 'Торты',           // Ավելացված
-        category_nl: 'Taarten',         // Ավելացված
+        category_ru: 'Торты',
+        category_nl: 'Taarten',
         title_hy: 'Շոկոլադե Տորթ',
         title_en: 'Chocolate Cherry Cake',
-        title_ru: 'Шоколадно-Вишневый Торт', // Ավելացված
-        title_nl: 'Chocolade Kersentaart',  // Ավելացված
+        title_ru: 'Шоколадно-Вишневый Торт',
+        title_nl: 'Chocolade Kersentaart',
         price: 9500,
         description_hy: 'Հարուստ շոկոլադե բիսկվիթ, թարմ բալի կրեմով և գլազուրով։',
         description_en: 'Rich chocolate sponge with fresh cherry cream and glaze.',
-        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.', // Ավելացված
-        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',     // Ավելացված
-        img: './public/images/tort_sev.jpg'
+        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.',
+        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',
+        // Փոփոխություն: './public/images/tort_sev.jpg' -> '/images/tort_sev.jpg'
+        img: '/images/tort_sev.jpg'
     },
     {
         id: 11,
@@ -187,24 +194,26 @@ export const menuData = [
         description_en: 'Multi-layered puff pastry with delicate custard cream.',
         description_ru: 'Многослойное слоеное тесто и нежный заварной крем.',
         description_nl: 'Meerlagig bladerdeeg met delicate banketbakkersroom.',
-        img: './public/images/pastry_napoleon.jpg'
+        // Փոփոխություն: './public/images/pastry_napoleon.jpg' -> '/images/pastry_napoleon.jpg'
+        img: '/images/pastry_napoleon.jpg'
     },
     {
         id: 12,
         category: 'cakes',
         category_hy: 'Տորթեր',
-        category_ru: 'Торты',           // Ավելացված
-        category_nl: 'Taarten',         // Ավելացված
+        category_ru: 'Торты',
+        category_nl: 'Taarten',
         title_hy: 'Շոկոլադե Տորթ',
         title_en: 'Chocolate Cherry Cake',
-        title_ru: 'Шоколадно-Вишневый Торт', // Ավելացված
-        title_nl: 'Chocolade Kersentaart',  // Ավելացված
+        title_ru: 'Шоколадно-Вишневый Торт',
+        title_nl: 'Chocolade Kersentaart',
         price: 9500,
         description_hy: 'Հարուստ շոկոլադե բիսկվիթ, թարմ բալի կրեմով և գլազուրով։',
         description_en: 'Rich chocolate sponge with fresh cherry cream and glaze.',
-        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.', // Ավելացված
-        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',     // Ավելացված
-        img: './public/images/tort_bal.jpg'
+        description_ru: 'Насыщенный шоколадный бисквит, со свежим вишневым кремом и глазурью.',
+        description_nl: 'Rijke chocoladebiscuit met verse kersencrème en glazuur.',
+        // Փոփոխություն: './public/images/tort_bal.jpg' -> '/images/tort_bal.jpg'
+        img: '/images/tort_bal.jpg'
     },
     {
         id: 13,
@@ -221,7 +230,8 @@ export const menuData = [
         description_en: 'Fresh, tangy mango and passion fruit flavor combination.',
         description_ru: 'Свежее, кисло-сладкое сочетание вкусов манго и маракуйи.',
         description_nl: 'Frisse, pittige combinatie van mango- en passievruchtsmaken.',
-        img: './public/images/macaron-1.png'
+        // Փոփոխություն: './public/images/macaron-1.png' -> '/images/macaron-1.png'
+        img: '/images/macaron-1.png'
     },
     {
         id: 14,
@@ -238,7 +248,8 @@ export const menuData = [
         description_en: 'Fresh, tangy mango and passion fruit flavor combination.',
         description_ru: 'Свежее, кисло-сладкое сочетание вкусов манго и маракуйи.',
         description_nl: 'Frisse, pittige combinatie van mango- en passievruchtsmaken.',
-        img: './public/images/macaron-2.png'
+        // Փոփոխություն: './public/images/cupcake-2.png' -> '/images/cupcake-2.png' (չնայած տվյալներում եղել է macaron-2.png)
+        img: '/images/macaron-2.png'
     },
     {
         id: 15,
@@ -255,7 +266,8 @@ export const menuData = [
         description_en: 'Traditional, butter-rich gata with a delicious milk-curd filling.',
         description_ru: 'Традиционная, богатая маслом гата с вкусной молочно-творожной начинкой.',
         description_nl: 'Traditionele, boterrijke gata met een heerlijke melk-kwarkvulling.',
-        img: './public/images/gataerku.jpg'
+        // Փոփոխություն: './public/images/gataerku.jpg' -> '/images/gataerku.jpg'
+        img: '/images/gataerku.jpg'
     },
     {
         id: 16,
@@ -272,7 +284,8 @@ export const menuData = [
         description_en: 'Multi-layered puff pastry with delicate custard cream.',
         description_ru: 'Многослойное слоеное тесто и нежный заварной крем.',
         description_nl: 'Meerlagig bladerdeeg met delicate banketbakkersroom.',
-        img: './public/images/pastry_napoleon.jpg'
+        // Փոփոխություն: './public/images/pastry_napoleon.jpg' -> '/images/pastry_napoleon.jpg'
+        img: '/images/pastry_napoleon.jpg'
     },
     {
         id: 17,
@@ -289,7 +302,8 @@ export const menuData = [
         description_en: 'Traditional, butter-rich gata with a delicious milk-curd filling.',
         description_ru: 'Традиционная, богатая маслом гата с вкусной молочно-творожной начинкой.',
         description_nl: 'Traditionele, boterrijke gata met een heerlijke melk-kwarkvulling.',
-        img: './public/images/gataereq.jpg'
+        // Փոփոխություն: './public/images/gataereq.jpg' -> '/images/gataereq.jpg'
+        img: '/images/gataereq.jpg'
     },
     {
         id: 18,
@@ -306,6 +320,7 @@ export const menuData = [
         description_en: 'Traditional, butter-rich gata with a delicious milk-curd filling.',
         description_ru: 'Традиционная, богатая маслом гата с вкусной молочно-творожной начинкой.',
         description_nl: 'Traditionele, boterrijke gata met een heerlijke melk-kwarkvulling.',
-        img: './public/images/gatachors.jpg'
+        img: '/images/gatachors.jpg'
     },
 ];
+
