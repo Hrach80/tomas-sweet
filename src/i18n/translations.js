@@ -31,15 +31,6 @@ export const translations = {
         "OFFER_SLOGAN_HERO": "Sweet Deals Await! Save Big This Week.",
         "OFFER_PRE_TITLE_HERO": "Limited Time Offer",
         "OFFER_TIMER_TEXT": "Offer Ends In:",
-        "OFFER_TITLE_1": "Buy 2, Get 1 Free Macarons",
-        "OFFER_DESC_1": "Mix and match your favorite flavors and get the third macaron for free. Perfect for sharing (or not!).",
-        "OFFER_TITLE_2": "Free Shipping Special",
-        "OFFER_DESC_2": "Enjoy free delivery on all orders over 100$",
-        "OFFER_TITLE_3": "Birthday Cake Discount",
-        "OFFER_DESC_3": "15% off any custom cake when ordered 10 days in advance.",
-        "VIEW_OFFER_BUTTON": "View Details",
-
-        // === CONTACT PAGE KEYS (MODERNIZED) ===
         "CONTACT_TITLE": "Get in Touch",
         "CONTACT_SLOGAN_BIG": "10 Years in the Market!",
         "CONTACT_FOUNDER_NAME": "Tamara Simonyan",
@@ -53,8 +44,6 @@ export const translations = {
         "GET_DIRECTIONS": "Get Directions",
         "CONTACT_SECTION_SOCIAL": "Stay Connected",
         "CONTACT_SECTION_PARTNERS": "Our Trusted Partners",
-
-        // Կոնտակտային հղումներ
         "LINK_PHONE": "+37494395221",
         "LINK_EMAIL": "mailto:example@email.com",
         "LINK_VIBER": "viber://chat?number=+37494395221",
@@ -65,12 +54,8 @@ export const translations = {
         "LINK_TIKTOK": "https://tiktok.com/@yourhandle",
         "LINK_GOOGLE_MAPS": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.066427320078!2d44.50290928731326!3d40.18731177140226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406ab2d46e325143%3A0xf650c822e11893c5!2zNDkgS29taXRhc2kgQXZlLCBZZXJldmFuIDAwNTEsIEFybWVuaWE!5e0!3m2!1sam!2s!4v1689772345000!5m2!1sam!2s",
         "LINK_GOOGLE_MAPS_DIRECTION": "https://maps.app.goo.gl/example",
-
-        // ԼՈԳՈՆԵՐԻ ՃԱՆԱՊԱՐՀԸ
         "LOGO_MIX_COUNTRY": "/images/Mix.png",
         "LOGO_KAREN_CATERING": "/images/partners/karen_catering_logo.png",
-
-        // === ABOUT US KEYS (NEW) ===
         "ABOUT_TITLE": "About Us",
         "SUBTITLE": "Our Partners",
         "MISSION_TITLE": "Our Joint Mission",
@@ -83,11 +68,9 @@ export const translations = {
         "MIX_TAGLINE": "Eastern and European Flavors",
         "MIX_DESC": "MIX Country is a supermarket offering a wide range of Armenian, Ukrainian, Russian, and Polish products, alongside various European goods. Inside the store, there is a hot food counter where you can order Armenian Khorovats (BBQ), Kebab, and more.",
         "MIX_HOT_FOOD_KHOROVATS": "Hot Armenian BBQ (Khorovats) and Kebab available!",
-        // ===========================
     },
 
-    hy: { // Հայերեն
-        // ... (Ձեր առկա տեքստերը) ...
+    hy: { 
         HOME: 'ԳԼԽԱՎՈՐ',
         MENU: 'ՄԵՆՅՈՒ',
         SPECIAL_OFFERS: 'ՀԱՏՈՒԿ ԱՌԱՋԱՐԿՆԵՐ',
@@ -115,7 +98,7 @@ export const translations = {
         CANCEL: 'Չեղարկել',
         WHATSAPP_NUMBER: '+37494395221',
 
-        // === CONTACT PAGE KEYS (MODERNIZED) ===
+    
         "CONTACT_TITLE": "Կապ մեզ հետ",
         "CONTACT_SLOGAN_BIG": "Արդեն 10 տարի շուկայում!",
         "CONTACT_FOUNDER_NAME": "Թամարա Սիմոնյան",
@@ -124,14 +107,11 @@ export const translations = {
         "CONTACT_MAIN_EMAIL": "example@email.com",
         "CONTACT_MAIN_ADDRESS": "Կոմիտասի պող. 49, Երևան, Հայաստան",
         "CONTACT_MAIN_ADDRESS_FULL": "Հայաստան, Երևան, Կոմիտասի պողոտա 49 (2-րդ հարկ, 3-րդ գրասենյակ)",
-
         "CONTACT_SECTION_MAP": "Մեր Գտնվելու Վայրը Քարտեզի Վրա",
         "FIND_US_HERE": "Գտեք Մեզ Այստեղ",
         "GET_DIRECTIONS": "Ստանալ Ուղղություններ",
         "CONTACT_SECTION_SOCIAL": "Միացե՛ք Մեզ",
         "CONTACT_SECTION_PARTNERS": "Մեր Հուսալի Գործընկերները",
-
-        // Կոնտակտային հղումներ
         "LINK_PHONE": "+37494395221",
         "LINK_EMAIL": "mailto:example@email.com",
         "LINK_VIBER": "viber://chat?number=+37494395221",
@@ -142,23 +122,12 @@ export const translations = {
         "LINK_TIKTOK": "https://tiktok.com/@yourhandle",
         "LINK_GOOGLE_MAPS": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.066427320078!2d44.50290928731326!3d40.18731177140226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406ab2d46e325143%3A0xf650c822e11893c5!2zNDkgS29taXRhc2kgQXZlLCBZZXJldmFuIDAwNTEsIEFybWVuaWE!5e0!3m2!1sen!2s!4v1689772345000!5m2!1sen!2s",
         "LINK_GOOGLE_MAPS_DIRECTION": "https://www.google.com/maps/dir/?api=1&destination=Komitas+Ave+49+Yerevan",
-
-        // ԼՈԳՈՆԵՐԻ ՃԱՆԱՊԱՐՀԸ
         "LOGO_MIX_COUNTRY": "/images/Mix.png",
         "LOGO_KAREN_CATERING": "/images/partners/karen_catering_logo.png",
 
         "OFFER_SLOGAN_HERO": "Քաղցր Առաջարկներ են սպասում! Խնայե՛ք այս շաբաթ:",
         "OFFER_PRE_TITLE_HERO": "Սահմանափակ Ժամկետով Առաջարկ",
         "OFFER_TIMER_TEXT": "Առաջարկը Կավարտվի:",
-        "OFFER_TITLE_1": "Գնեք 2 Մակարոն, Ստացեք 3-րդը Անվճար",
-        "OFFER_DESC_1": "Խառնեք և համադրեք Ձեր սիրելի համերը և ստացեք երրորդ մակարոնը անվճար: Կիսվեք (կամ ոչ) ընկերների հետ:",
-        "OFFER_TITLE_2": "Անվճար Առաքման Հատուկ Առաջարկ",
-        "OFFER_DESC_2": "Վայելեք անվճար առաքում 10.000 Դրամից ավելի բոլոր պատվերների համար",
-        "OFFER_TITLE_3": "Ծննդյան Տորթի Զեղչ",
-        "OFFER_DESC_3": "15% զեղչ ցանկացած անհատական տորթի վրա, եթե պատվիրվի 10 օր առաջ:",
-        "VIEW_OFFER_BUTTON": "Դիտել Մանրամասները",
-
-        // === ABOUT US KEYS (NEW) ===
         "ABOUT_TITLE": "Մեր Մասին",
         "SUBTITLE": "Մեր Գործընկերները",
         "MISSION_TITLE": "Միասնական Առաքելություն",
@@ -171,11 +140,9 @@ export const translations = {
         "MIX_TAGLINE": "Արևելյան և Եվրոպական Համեր",
         "MIX_DESC": "MIX Country-ը սուպերմարկետ է, որն առաջարկում է հայկական, ուկրաինական, ռուսական և լեհական ապրանքների լայն տեսականի, ինչպես նաև եվրոպական այլ ապրանքներ։ Խանութի ներսում գործում է տաք սննդի կետ, որտեղ կարող եք պատվիրել հայկական խորոված, քաբաբ և այլն։",
         "MIX_HOT_FOOD_KHOROVATS": "Առկա է տաք հայկական խորոված և քաբաբ։",
-        // ===========================
     },
 
-    ru: { // Ռուսերեն
-        // ... (Ձեր առկա տեքստերը) ...
+    ru: { 
         HOME: 'ГЛАВНАЯ',
         MENU: 'МЕНЮ',
         SPECIAL_OFFERS: 'СПЕЦПРЕДЛОЖЕНИЯ',
@@ -203,7 +170,7 @@ export const translations = {
         CANCEL: 'Отмена',
         WHATSAPP_NUMBER: '+37494395221',
 
-        // === CONTACT PAGE KEYS (MODERNIZED) ===
+
         "CONTACT_TITLE": "Свяжитесь с нами",
         "CONTACT_SLOGAN_BIG": "10 лет на рынке!",
         "CONTACT_FOUNDER_NAME": "Тамара Симонян",
@@ -217,8 +184,6 @@ export const translations = {
         "GET_DIRECTIONS": "Получить маршрут",
         "CONTACT_SECTION_SOCIAL": "Будьте на связи",
         "CONTACT_SECTION_PARTNERS": "Наши надежные партнеры",
-
-        // Կոնտակտային հղումներ
         "LINK_PHONE": "+37494395221",
         "LINK_EMAIL": "mailto:example@email.com",
         "LINK_VIBER": "viber://chat?number=+37494395221",
@@ -229,8 +194,6 @@ export const translations = {
         "LINK_TIKTOK": "https://tiktok.com/@yourhandle",
         "LINK_GOOGLE_MAPS": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.066427320078!2d44.50290928731326!3d40.18731177140226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406ab2d46e325143%3A0xf650c822e11893c5!2zNDkgS29taXRhc2kgQXZlLCBZZXJldmFuIDAwNTEsIEFybWVuaWE!5e0!3m2!1sam!2s!4v1689772345000!5m2!1sam!2s",
         "LINK_GOOGLE_MAPS_DIRECTION": "https://www.google.com/maps/dir/?api=1&destination=Կոմիտասի+Պողոտա+49+Երևան",
-
-        // ԼՈԳՈՆԵՐԻ ՃԱՆԱՊԱՐՀԸ
         "LOGO_MIX_COUNTRY": "/images/Mix.png",
         "LOGO_KAREN_CATERING": "/images/partners/karen_catering_logo.png",
 
@@ -238,15 +201,6 @@ export const translations = {
         "OFFER_SLOGAN_HERO": "Вас ждут сладкие предложения! Экономьте на этой неделе.",
         "OFFER_PRE_TITLE_HERO": "Ограниченное по времени предложение",
         "OFFER_TIMER_TEXT": "Предложение Заканчивается Через:",
-        "OFFER_TITLE_1": "Купи 2, Получи 3-й Макарон Бесплатно",
-        "OFFER_DESC_1": "Смешивайте и сочетайте ваши любимые вкусы и получите третий макарон бесплатно. Идеально для того, чтобы поделиться (или нет!).",
-        "OFFER_TITLE_2": "Специальное Предложение по Бесплатной Доставке",
-        "OFFER_DESC_2": "Наслаждайтесь бесплатной доставкой при всех заказах на сумму свыше 100$",
-        "OFFER_TITLE_3": "Скидка на Праздничный Торт",
-        "OFFER_DESC_3": "Скидка 15% на любой торт на заказ при оформлении за 10 дней.",
-        "VIEW_OFFER_BUTTON": "Посмотреть Детали",
-
-        // === ABOUT US KEYS (NEW) ===
         "ABOUT_TITLE": "О нас",
         "SUBTITLE": "Наши Партнеры",
         "MISSION_TITLE": "Наша Общая Миссия",
@@ -259,10 +213,9 @@ export const translations = {
         "MIX_TAGLINE": "Восточные и Европейские Вкусы",
         "MIX_DESC": "MIX Country — это супермаркет, предлагающий широкий ассортимент армянских, украинских, русских и польских товаров, а также других европейских продуктов. Внутри магазина действует пункт горячего питания, где можно заказать армянский хоровац (шашлык), кебаб и многое другое.",
         "MIX_HOT_FOOD_KHOROVATS": "В наличии горячий армянский шашлык (хоровац) и кебаб!",
-        // ===========================
     },
 
-    nl: { // Հոլանդերեն
+    nl: { 
         HOME: 'HOME',
         MENU: 'MENU',
         SPECIAL_OFFERS: 'SPECIALE AANBIEDINGEN',
@@ -290,7 +243,6 @@ export const translations = {
         CANCEL: 'Annuleren',
         WHATSAPP_NUMBER: '+37494395221',
 
-        // === CONTACT PAGE KEYS (MODERNIZED) ===
         "CONTACT_TITLE": "Neem Contact Op",
         "CONTACT_SLOGAN_BIG": "10 jaar op de markt!",
         "CONTACT_FOUNDER_NAME": "Tamara Simonyan",
@@ -304,8 +256,6 @@ export const translations = {
         "GET_DIRECTIONS": "Route Beschrijving",
         "CONTACT_SECTION_SOCIAL": "Blijf Verbonden",
         "CONTACT_SECTION_PARTNERS": "Onze Betrouwbare Partners",
-
-        // Կոնտակտային հղումներ
         "LINK_PHONE": "+37494395221",
         "LINK_EMAIL": "mailto:example@email.com",
         "LINK_VIBER": "viber://chat?number=+37494395221",
@@ -316,22 +266,11 @@ export const translations = {
         "LINK_TIKTOK": "https://tiktok.com/@yourhandle",
         "LINK_GOOGLE_MAPS": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.066427320078!2d44.50290928731326!3d40.18731177140226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406ab2d46e325143%3A0xf650c822e11893c5!2zNDkgS29taXRhc2kgQXZlLCBZZXJldmFuIDAwNTEsIEFybWVuaWE!5e0!3m2!1sam!2s!4v1689772345000!5m2!1sam!2s",
         "LINK_GOOGLE_MAPS_DIRECTION": "http://googleusercontent.com/maps.google.com/7",
-
         "LOGO_MIX_COUNTRY": "/images/Mix.png",
         "LOGO_KAREN_CATERING": "/images/partners/karen_catering_logo.png",
-
         "OFFER_SLOGAN_HERO": "Zoete Aanbiedingen Wachten! Bespaar deze Week Groot.",
         "OFFER_PRE_TITLE_HERO": "Beperkte Tijds Aanbieding",
         "OFFER_TIMER_TEXT": "Aanbieding Eindigt Over:",
-        "OFFER_TITLE_1": "Koop 2, Krijg 3e Macaron Gratis",
-        "OFFER_DESC_1": "Mix en match je favoriete smaken en krijg de derde macaron gratis. Perfect om te delen (of niet!).",
-        "OFFER_TITLE_2": "Gratis Verzending Special",
-        "OFFER_DESC_2": "Geniet van gratis bezorging bij alle bestellingen boven 100$",
-        "OFFER_TITLE_3": "Verjaardagstaart Korting",
-        "OFFER_DESC_3": "15% korting op elke taart op maat bij bestelling 10 dagen van tevoren.",
-        "VIEW_OFFER_BUTTON": "Bekijk Details",
-
-        // === ABOUT US KEYS (NEW) ===
         "ABOUT_TITLE": "Over ons",
         "SUBTITLE": "Onze Partners",
         "MISSION_TITLE": "Onze Gezamenlijke Missie",
@@ -344,6 +283,5 @@ export const translations = {
         "MIX_TAGLINE": "Oosterse en Europese Smaken",
         "MIX_DESC": "MIX Country is een supermarkt met een breed assortiment aan Armeense, Oekraïense, Russische en Poolse producten, naast diverse Europese goederen. Binnen in de winkel is er een warme voedselafdeling waar u Armeense Khorovats (BBQ), Kebab en meer kunt bestellen.",
         "MIX_HOT_FOOD_KHOROVATS": "Hete Armeense BBQ (Khorovats) en Kebab beschikbaar!",
-        // ===========================
     },
 };

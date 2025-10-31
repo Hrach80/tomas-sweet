@@ -6,7 +6,7 @@ import './SpecialOffers.scss';
 import { FaTruck, FaGift, FaBirthdayCake } from 'react-icons/fa';
 
 
-const TARGET_DATE = '2025-10-25T23:59:59'; 
+const TARGET_DATE = '2026-10-25T23:59:59'; 
 
 const offerCardsData = [
     {
@@ -68,14 +68,6 @@ const SpecialOffers = () => {
                             className="offer-card interactive-hover"
                             style={{ '--card-color': card.color }}
                         >
-                            <div className="card-icon-wrapper">
-                                <Icon className="card-icon" />
-                            </div>
-                            <h3>{t(card.titleKey)}</h3>
-                            <p className="card-description">{t(card.descKey)}</p>
-                            <a href="#" className="card-link">
-                                {t('VIEW_OFFER_BUTTON')}
-                            </a>
                         </div>
                     );
                 })}
